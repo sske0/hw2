@@ -1,5 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
-
 // 1
 //int sum = 0;
 //int reminder = 0;
@@ -40,24 +38,21 @@
 
 //3
 //int reminder = 0;
-//int min_digit = 0;
+//int min_digit = 9;
 //Console.WriteLine("enter ur number: ");
 //int number = Convert.ToInt32(Console.ReadLine());
 
 //while (number > 0)
 //{
 //    reminder = number % 10;
-//    number = number / 10;
-//    min_digit = reminder;
+                
 
-//    if (min_digit < reminder)
+//    if (min_digit > reminder)
 //    {
 //        min_digit = reminder;
-//        continue;
 //    }
-//    else if (min_digit == 0) break;
-//    else continue;
-    
+//    number /= 10;
+
 //}
 //Console.WriteLine(min_digit);
 
